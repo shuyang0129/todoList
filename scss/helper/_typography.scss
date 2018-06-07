@@ -1,0 +1,26 @@
+/*-----------------------------------------------------
+TYPOGRAPHY
+-----------------------------------------------------*/
+
+/*--Basic Style--*/
+
+.title {
+    @include $font__weight(medium);
+    @include $font__size(l);
+}
+
+.subtitle {
+    @include $font__weight(medium);
+    @include $font__size(m);
+}
+
+.placeholder,
+.remark {
+    @include $font__weight(regular);
+    @include $font__size(s)
+}
+
+.status {
+    @include $font__size(l);
+    font-style: italic;
+}
