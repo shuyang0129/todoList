@@ -1,7 +1,10 @@
 .tab__item {
-    height: 100%;
+    @include flex-grow(1);
     max-width: 220px;
-    flex-grow: 1;
     text-align: center;
-    line-height: 76px;
+    line-height: $tab__height;
+    &.active {
+        opacity: 1;
+        @include prefix(box-shadow, inset 0 -2px 0 #F9FBE7, webkit moz ms);
+    }
 }
