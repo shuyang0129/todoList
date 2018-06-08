@@ -28,5 +28,6 @@ TYPOGRAPHY
 /*--Tab Item--*/
 
 .tab {
-    color: #fff;
+    @extend .title;
+    color: $white;
 }
