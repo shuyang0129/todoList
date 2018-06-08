@@ -1,6 +1,23 @@
+/*-----------------------------------------------------
+BASIC CONTAINER
+-----------------------------------------------------*/
+
 .container {
     width: 100%;
-    max-width: 620px;
+    max-width: 1024px;
     margin: 0 auto;
-    background-color: #eee;
 }
+
+
+
+/*-----------------------------------------------------
+NAV CONTAINER
+-----------------------------------------------------*/
+
+.container_nav {
+    height: 76px;
+    @extend %center_vertical;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
