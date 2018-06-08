@@ -6,3 +6,12 @@ p {
     @include font__weight(regular);
     @include font__size(m);
 }
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
