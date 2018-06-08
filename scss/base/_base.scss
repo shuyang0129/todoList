@@ -4,5 +4,5 @@ body {
 
 p {
     @include font__weight(regular);
-    @include font__size(m)
+    @include font__size(m);
 }
