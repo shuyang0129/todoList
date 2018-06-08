@@ -9,6 +9,6 @@ TAB ITEM
     line-height: $tab__height;
     &.active {
         opacity: 1;
-        @include prefix(box-shadow, inset 0 -2px 0 #F9FBE7, webkit moz ms);
+        @include prefix(box-shadow, inset 0 -3px 0 #F9FBE7, webkit moz ms);
     }
 }
