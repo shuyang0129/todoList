@@ -15,9 +15,9 @@ TAB CONTAINER
 -----------------------------------------------------*/
 
 .container__tab {
-    height: 76px;
+    height: $tab__height;
     @extend %center_vertical;
-    flex-wrap: nowrap;
-    justify-content: center;
+    @extend %flex-wrap_no-wrap;
+    @extend %justify-content_center;
 }
 
