@@ -8,3 +8,13 @@
     }
     @return $map;
 }
+
+
+
+////////////////////////////////////////////////////
+// GUTTER
+////////////////////////////////////////////////////
+
+@function gutter__size($value) {
+    @return map-get($map: $gutter__size, $key: $value);
+}
