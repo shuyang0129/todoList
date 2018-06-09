@@ -24,10 +24,6 @@ nav {
 	right     : 0;
 }
 
-main {
-    margin-top: $tab__height;
-}
-
 button {
 	@extend %cursor--pointer;
 	background : transparent no-repeat;
