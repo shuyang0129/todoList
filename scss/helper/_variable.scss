@@ -14,7 +14,10 @@ $white          : #FFFFFF;
 $black          : #000000;
 $mercury        : #E1E1E1;
 
-
+$list__item_bg			: $concrete;
+$list__item_highlight	: $peach-cream;
+$theme__color			: $cornflower-blue;
+$icon__present			: $boulder;
 
 ////////////////////////////////////////////////////
 // TYPOGRAPHY
@@ -39,4 +42,11 @@ $font__weight: (
 // SIZE
 ////////////////////////////////////////////////////
 
-$tab__height: 76px;
+$tab__height			: 76px;
+$gutter__size: (
+	default				: 24px,
+	s					: 16px,
+	xs					: 8px,
+);
+$border__radius_default	: 2px;
+$icon__size_default		: 24px;
