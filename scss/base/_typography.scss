@@ -29,10 +29,8 @@ TYPOGRAPHY
 
 .tab__item {
     @extend .title;
-    // @include font__weight(regular);
-    // @include font__size(m);
-    color: $white;
-    opacity: 0.38;
+    color   : $white;
+    opacity : 0.38;
 }
 
 .list__item_title {
