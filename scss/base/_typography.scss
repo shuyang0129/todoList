@@ -28,9 +28,16 @@ TYPOGRAPHY
 /*--Tab Item--*/
 
 .tab__item {
-    //@extend .title;
-    @include font__weight(regular);
-    @include font__size(m);
+    @extend .title;
+    // @include font__weight(regular);
+    // @include font__size(m);
     color: $white;
     opacity: 0.38;
+}
+
+.list__item_title {
+    @extend .title;
+    overflow      : hidden;
+	white-space   : nowrap;
+    text-overflow : ellipsis;
 }
