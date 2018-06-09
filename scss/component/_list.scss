@@ -89,3 +89,24 @@ LIST ITEM DETAIL AREA
 
 
 
+/*-----------------------------------------------------
+LIST ITEM COMPLETED STATES
+-----------------------------------------------------*/
+
+.list__item.completed {
+    //Remove detail of list item
+    .list__item_detail {
+        display         : none;
+    }
+    //Make check-box checked
+    .check-box {
+        background-color: $theme__color;
+    }
+    //Delete list item title by line through the text
+    .list__item_title {
+        text-decoration : line-through;
+    }
+}
+
+
+
