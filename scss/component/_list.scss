@@ -63,3 +63,29 @@ LIST ITEM MAIN AREA
 
 
 
+/*-----------------------------------------------------
+LIST ITEM DETAIL AREA
+-----------------------------------------------------*/
+
+.list__item_detail {
+    @extend %center_vertical;
+    padding-left    : 72px;
+    margin-top      : -9px;
+    padding-bottom  : gutter__size(s);
+    color           : $icon__present;
+    > i {
+        margin-right: gutter__size(s);
+    }
+}
+
+/*--Expire time--*/
+.expire-time {
+    @extend %center_vertical;
+    margin-right    : gutter__size(s);
+    > .placeholder {
+        margin-left : gutter__size(xs);
+    }
+}
+
+
+
