@@ -110,3 +110,10 @@ LIST ITEM COMPLETED STATES
 
 
 
+/*-----------------------------------------------------
+LIST ITEM MARK AS IMPORTANT STATES
+-----------------------------------------------------*/
+
+.list__item.important {
+    background-color: $list__item_highlight;
+}
