@@ -8,7 +8,7 @@
 		<!-- font embeb -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500" rel="stylesheet">
 		<!-- font awesome icon -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!-- css -->
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/application.css">
@@ -23,8 +23,28 @@
 			</nav>
 		</div>
 
-		<main id="main-content">
-			
+		<main class="list">
+			<div class="list__item">
+				<div class="list__item_main">
+					<div class="list__item_left">
+						<button class="check-box"><i class="material-icons md-light md-16">check</i></button>
+						<!-- <button><i class="material-icons md-24">check_box_outline_blank</i></button> -->
+						<h2 class="list__item_title">Title</h2>
+					</div>
+					<div class="list__item_right">
+						<button><i class="material-icons md-24">star_border</i></button>
+						<button><i class="material-icons md-24">create</i></button>
+					</div>
+				</div>
+				<div class="list__item_detail">
+					<div class="expire-time">
+						<i class="material-icons md-16">date_range</i>
+						<span class="placeholder">2018/06/11 12:00</span>
+					</div>
+					<i class="material-icons md-16">attachment</i>
+					<i class="material-icons md-16">comment</i>
+				</div>
+			</div>
 		</main>
 		<script src="js/myScript.js"></script>
 	</body>
