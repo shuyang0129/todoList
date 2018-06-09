@@ -9,3 +9,14 @@ LIST | CONTAINER FOR LIST ITEM
 
 
 
+/*-----------------------------------------------------
+LIST ITEM | INDIVIDUAL TO DO LIST ITEM
+-----------------------------------------------------*/
+
+.list__item {
+    background-color: $list__item_bg;
+    margin-bottom   : gutter__size(default);
+}
+
+
+
