@@ -5,6 +5,9 @@ LIST | CONTAINER FOR LIST ITEM
 .list {
     margin      : $tab__height + 24px auto 0;
     max-width   : 620px;
+    > :nth-child(n) {
+        margin-bottom   : gutter__size(default);
+    }
 }
 
 
@@ -15,7 +18,6 @@ LIST ITEM | INDIVIDUAL TO DO LIST ITEM
 
 .list__item {
     background-color: $list__item_bg;
-    margin-bottom   : gutter__size(default);
 }
 
 
