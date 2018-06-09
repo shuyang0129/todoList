@@ -1,5 +1,25 @@
+
 ////////////////////////////////////////////////////
-// SHADOW
+// UTILITY
+////////////////////////////////////////////////////
+
+//Color
+$black: #000000;
+
+//Mixin | prefix
+@mixin prefix($property, $value, $vendors: webkit moz ms o) {
+      @if $vendors {
+        @each $vendor in $vendors {
+          #{"-" + $vendor + "-" + $property}: #{$value};
+        }
+      }
+      #{$property}: #{$value};
+}
+
+
+
+////////////////////////////////////////////////////
+// SHADOW | Property definine
 ////////////////////////////////////////////////////
 
 $shadow: (
@@ -58,8 +78,16 @@ $shadow: (
 	),
 );
 
+
+
+////////////////////////////////////////////////////
+// SHADOW | Define reusable extend
+////////////////////////////////////////////////////
+
 @each $z-dp, $property in $shadow {
   %shadow_#{$z-dp} {
     @include prefix(box-shadow, $property);
   }
 }
+
+
