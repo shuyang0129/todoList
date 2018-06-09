@@ -20,3 +20,46 @@ LIST ITEM | INDIVIDUAL TO DO LIST ITEM
 
 
 
+/*-----------------------------------------------------
+LIST ITEM MAIN AREA
+-----------------------------------------------------*/
+
+.list__item_main {
+    @extend %center_vertical;
+    @extend %flex-wrap_no-wrap;
+    @extend %justify-content_space-between;
+    height      : 76px;
+    margin-left : gutter__size(default);
+    margin-right: gutter__size(default);
+}
+
+/*--Main Area | Left--*/
+.list__item_left {
+    @extend %center_vertical;
+    max-width: 480px;
+}
+
+/*--Check box--*/
+.check-box {
+    height          : $icon__size_default;
+    width           : $icon__size_default;    
+    border-radius   : $border__radius_default;
+    background-color: $white;
+}
+
+//List item title
+.list__item_title {
+    margin-left: gutter__size(default);
+}
+
+/*--Main Area | Right--*/
+.list__item_right {
+    @extend %center_vertical;
+    > :first-child {
+        margin-left : gutter__size(default);
+        margin-right: gutter__size(default);
+    }
+}
+
+
+
