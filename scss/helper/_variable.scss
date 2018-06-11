@@ -18,6 +18,7 @@ $list__item_bg			: $concrete;
 $list__item_highlight	: $peach-cream;
 $theme__color			: $cornflower-blue;
 $icon__present			: $boulder;
+$divider__color			: $silver;
 
 ////////////////////////////////////////////////////
 // TYPOGRAPHY
@@ -48,5 +49,6 @@ $gutter__size: (
 	s					: 16px,
 	xs					: 8px,
 );
-$border__radius_default	: 2px;
 $icon__size_default		: 24px;
+$border__radius_default	: 2px;
+$border__radius_form	: 5px;
