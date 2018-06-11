@@ -119,3 +119,11 @@ LIST ITEM MARK AS IMPORTANT STATES
 .list__item.important {
     background-color: $list__item_highlight;
 }
+
+/*-----------------------------------------------------
+LIST ITEM TASKS COUNT
+-----------------------------------------------------*/
+
+.task__count {
+    margin-left: gutter__size(default);
+}
