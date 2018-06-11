@@ -24,11 +24,65 @@
 		</div>
 
 		<main class="list">
-			<div class="list__item">
+			<div class="list__item list__item_form">
 				<div class="list__item_main">
 					<div class="list__item_left">
 						<button class="check-box"><i class="material-icons md-light md-16">check</i></button>
 						<!-- <button><i class="material-icons md-24">check_box_outline_blank</i></button> -->
+						<h2 class="list__item_title">Title</h2>
+					</div>
+					<div class="list__item_right">
+						<button><i class="material-icons md-24">star_border</i></button>
+						<button><i class="material-icons md-24">create</i></button>
+					</div>
+				</div>
+				<div class="">
+					<div class="form__block">
+						<div class="form__item">
+							<div class="form__block_title">
+								<i class="material-icons">date_range</i>
+								<h2 class="subtitle">Deadline</h2>
+							</div>
+							<div class="form__block_input">
+								<input type="date" name="" id="">
+								<input type="time" name="" id="">
+							</div>
+						</div>
+						<div class="form__item">
+							<div class="form__block_title">
+								<i class="material-icons">attachment</i>
+								<h2 class="subtitle">File</h2>
+							</div>
+							<div class="form__block_input">
+								<button class="btn__upload"><i class="material-icons md-light">add</i></button>
+							</div>
+						</div>
+						<div class="form__item">
+							<div class="form__block_title">
+									<i class="material-icons">comment</i>
+								<h2 class="subtitle">Comment</h2>
+							</div>
+							<div class="form__block_input">
+								<textarea name="comment" id="" placeholder="Your memo goes here..."></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="form__action">
+						<button id="cancel">
+							<i class="material-icons">clear</i>
+							Cancel
+						</button>
+						<button>
+							<i class="material-icons">add</i>
+							Add Task
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="list__item">
+				<div class="list__item_main">
+					<div class="list__item_left">
+						<button class="check-box"><i class="material-icons md-light md-16">check</i></button>
 						<h2 class="list__item_title">Title</h2>
 					</div>
 					<div class="list__item_right">
