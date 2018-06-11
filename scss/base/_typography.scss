@@ -39,3 +39,10 @@ TYPOGRAPHY
 	white-space   : nowrap;
     text-overflow : ellipsis;
 }
+
+/*--Task count--*/
+
+.task__count {
+    @extend .status;
+    color: $silver;
+}
