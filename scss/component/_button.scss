@@ -1,0 +1,32 @@
+/*-----------------------------------------------------
+LIST ITEM FORM | BUTTON STYLE
+-----------------------------------------------------*/
+
+.btn__upload {
+    height          : 32px;
+    width           : 32px;    
+    border-radius   : $border__radius_default;
+    background-color: $silver;
+}
+
+.form__action {
+    @extend %center_vertical;
+    width: 100%;
+    button {
+        @extend %center_center;
+        @include flex-grow(1);
+        @include font__weight(regular);
+        @include font__size(l);
+        background-color: $theme__color;
+        height          : 60px;
+        color           : $white;
+        i {
+            padding-right: gutter__size(s);
+        }
+    }
+}
+
+#cancel {
+    color           : $monza;
+    background-color: #fff;
+}
