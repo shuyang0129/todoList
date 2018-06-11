@@ -32,3 +32,33 @@ button {
 	margin     : 0;
 	padding    : 0;
 }
+
+main {
+	padding: 0 24px;
+}
+
+textarea {
+    @extend .placeholder;
+    color       : $black;
+    margin-right: 104px;
+    width       : 100%;
+    max-width   : 445px;
+    height      : 120px;
+    padding     : gutter__size(xs) gutter__size(s);
+    border      : none;
+    resize      : none;
+}
+
+input[type="date"],
+input[type="time"] {
+    @extend .placeholder;
+    padding-left: 16px;
+    width       : 162px;
+    height      : 35px;
+    border      : none;
+}
+
+::placeholder {
+    @extend .placeholder;
+    color: $silver;
+}
