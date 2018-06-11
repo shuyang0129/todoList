@@ -1,0 +1,44 @@
+/*-----------------------------------------------------
+LIST ITEM FORM | CREATE OR EDIT LIST ITEM
+-----------------------------------------------------*/
+
+.list__item_form {
+    @extend %shadow_1dp;
+    border-radius   : $border__radius_form;
+    overflow        : hidden;
+}
+
+/*--Form Block | Contains Form Item--*/
+.form__block {
+    border-top      : 2px solid $divider__color;
+    padding-bottom  : gutter__size(default);
+}
+
+/*--Form Item--*/
+.form__item {
+    margin-top      : gutter__size(default);
+}
+
+/*--Form Item Title--*/
+.form__block_title {
+    @extend %center_vertical;
+    i {
+        margin-left: 72px;
+    }
+    .subtitle {
+        margin-left: gutter__size(xs);
+    }
+}
+
+/*--Form Item Input--*/
+.form__block_input {
+    @extend %center_vertical;
+    margin-top: gutter__size(xs);
+    > :nth-child(1) {
+        margin-left: 104px;
+    }
+    > :nth-child(2) {
+        margin-left: gutter__size(xs);
+    }
+}
+
